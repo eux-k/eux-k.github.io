@@ -36,21 +36,6 @@ li a {
 li a:hover {
     background-color: #F3E9E2;
   }
-/* 
-.btn {
-    background-color: #D3DFF1;
-    border: none;
-    width: 90px;
-    height: 90px;
-    border-radius: 100%;
-    bottom: 0;
-    margin: auto;
-    display: block;
-    }
-
-.btn:hover {
-    background-color: #F0F6FF;
-} */
 
 #home {
     height: 1024px;
