@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Quattrocento:wght@400;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/d3580775d0.js" crossorigin="anonymous"></script>
+    
+        <link rel ="stylesheet" href ="scroll.css">
+
+    
+        <style>
+            h1 {
+                font-size: 6.875em; 
+                text-align: center; 
+                font-family: 'Caudex', serif;
+                margin-top: 25%;
+            }
+
+            h2 {
+                font-size: 3.75em;
+                text-align: center; 
+                font-family: 'Caudex', serif;
+            
+            }  
+
+            h3 {
+                font-size: 1em;
+                font-family: 'Quattrocento', serif;
+            }
+
+            p {
+                font-size: 2.1875em;
+                font-family: 'Quattrocento', serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+        <nav>
+            <ul>
+                <li><a href ="#contact">Contact</a></li>
+                <li><a href ="#projects">Projects</a></li>
+                <li><a href ="#profile">Profile</a></li>
+                <li><a href ="#home">Home</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div id ="home">
+            <h1>Portfolio Website</h1>
+        </div>
+
+        <div id ="profile">
+            <hr>
+            <br>
+            <h2>About Me</h2>
+            <img align="right" src="media\profile pic.png" alt="profile picture" style= "margin-right: 100px; margin-left:50px; margin-top: 150px";>
+            <p style="margin-top: 100px; margin-left: 100px">Hello!</p>
+            <br>
+            <p style="margin-left: 100px">My name is Kelly Xue and I am a highschool graduate. Here are some things about me...</p>
+            <br>
+            <br>
+            <p style="margin-left: 100px">Education: Binus School Serpong, Science Stream
+                                          Hobbies: Crochet, badminton, etc</p>
+        </div>
+
+        <div id ="projects">
+            <hr>
+            <br>
+            <h2>My Projects</h2>
+            <img id="img" src="media\bear.jpeg">
+            <div id="btn">
+                <div id="dot1"
+                onclick="
+                        document.getElementById('img').src='media\bear.jpeg'
+                        document.getElementById('dot3').style = 'background-color: #D3DFF1'
+                        document.getElementById('dot2').style = 'background-color: #D3DFF1' 
+                        document.getElementById('dot1').style = 'background-color: #F0F6FF'
+                        "></div>
+
+                <div id="dot2"
+                onclick="
+                        document.getElementById('img').src='media\sheep.jpeg' 
+                        document.getElementById('dot3').style = 'background-color: #D3DFF1'
+                        document.getElementById('dot2').style = 'background-color: #F0F6FF' 
+                        document.getElementById('dot1').style = 'background-color: #D3DFF1'
+                        "></div>
+
+                <div id="dot3"
+                onclick="
+                        document.getElementById('img').src='media\whale shark.jpeg' 
+                        document.getElementById('dot3').style = 'background-color: #F0F6FF'
+                        document.getElementById('dot2').style = 'background-color: #D3DFF1' 
+                        document.getElementById('dot1').style = 'background-color: #D3DFF1'
+                        "></div>
+        </div>
+
+        <div id ="contact">
+            <hr>
+        
+            <div id="box" style="margin-top: 150px">
+            <h2 style="margin-top: 50px; margin-bottom: 50px">Reach out to me at:</h2>
+            
+            <i class="fa-solid fa-phone fa-2x"></i><h3>0811868486</h3>
+            <i class="fa-brands fa-discord fa-2x"></i><h3>ricecrack.ers#4336</h3>
+            <i class="fa-solid fa-envelope fa-2x"></i><h3>xuekelly04@gmail.com</h3>
+            <i class="fa-brands fa-github fa-2x"></i><h3>eux-k</h3>
+            </div>
+
+        </div>
+
+        
+       
+    </body>
+   
+</html>
